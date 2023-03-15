@@ -1,0 +1,188 @@
+@font-face {
+    /*perintah untuk memanggil font eksternal*/
+    font-family: "poppins";
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+/*   CSS ALL  */
+/* ---====--- */
+* {
+    font-family: poppins, sans-serif;
+}
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+.main {
+    padding-top: 80px;
+}
+
+/*  CSS BODY  */
+/* ---====--- */
+body {
+    background-color: #f4f4f4;
+    font-family: poppins, sans-serif;
+}
+
+/* CSS NAVBAR */
+.navbar {
+    padding: 0.5rem 1rem !important;
+}
+.navbar-nav .nav-link {
+    font-size: 14px;
+    color: #777778;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.mx-auto {
+    padding-right: 150px !important;
+}
+.mr-auto,
+.mx-auto {
+    margin-right: auto !important;
+}
+.ml-auto .mx-auto {
+    margin-left: auto !important;
+}
+.header-navigation.fixedtopscroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.06);
+}
+.header-navigation.fixedtopscroll ul.navigation-box > li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navbar__footer {
+    color: #2e3d62;
+}
+.navbar__footer .navbar-brand {
+    font-size: 16px;
+}
+.navbar__social-media li a i {
+    font-size: 24px;
+}
+.color__icon-blue {
+    color: #0cb4fe;
+}
+
+/* CSS BUTTON */
+/* ---====--- */
+.btn-register {
+    background-color: #0cb4fe !important;
+    border-radius: 27px;
+    font-weight: 600;
+    padding: 19px 48px;
+    border: none;
+    margin: -8px;
+    font-size: 14px;
+
+    display: inline-block;
+    box-shadow: 0 10px 30px 0 rgb(212 212 212 / 30%);
+    /* color: #fff!important; */
+    /* background: #fff; */
+    line-height: 1em;
+    vertical-align: middle;
+    transition: all 0.4s ease;
+}
+.btn-register:hover {
+    color: #0cb4fe !important;
+    background: #0cb4fe2e !important;
+}
+.p-lg-2 {
+    padding-right: 25px !important;
+}
+
+.h1-all {
+    font-weight: 700;
+    font-size: 54px;
+}
+
+/* -------======------- */
+/* CUSTOM CSS VIEW HOME */
+.bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 320px;
+    padding-bottom: 2rem;
+    top: 0;
+}
+.register__spacing {
+    margin-top: 2rem;
+    margin-bottom: 8.5rem;
+}
+.custom__cardThree .icon {
+    width: 70px;
+    height: 70px;
+    margin: 20px 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custom__cardThree .card {
+    border: none;
+    margin-top: 2rem;
+    box-shadow: 0 6px 24px 0 rgba(82, 174, 254, 0.16);
+    -webkit-box-shadow: 0 6px 24px 0 rgba(82, 174, 254, 0.16);
+    -moz-box-shadow: 0 6px 24px 0 rgba(82, 174, 254, 0.16);
+}
+.custom__card .card {
+    border: none;
+    margin-top: 2rem;
+}
+.isi1 {
+    height: 270px;
+}
+.isi2 {
+    height: 70px;
+}
+.card-img,
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.custom__cardThree h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2e3d62;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.custom__cardThree ul li {
+    font-size: 14px;
+    color: #8799ad;
+    line-height: 1.8em;
+    list-style: none;
+    padding-top: 0.5rem;
+}
+.btn-blue {
+    background: #0cb4fe;
+    color: #fff;
+}
+.btn-blue:hover {
+    background: #0cb4fe;
+    color: #fff;
+}
+
+/* -------======------- */
+/* CUSTOM MAX-MIX WIDTH */
+@media (max-width: 991px) {
+    /*  CUSTOM SENDIRI */
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+    .register__spacing {
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+}
